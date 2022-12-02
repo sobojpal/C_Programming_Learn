@@ -1,3 +1,5 @@
+//F = (C * 1.8) + 32
+
 #include<stdio.h>
 int main()
 {
