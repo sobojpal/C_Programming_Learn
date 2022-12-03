@@ -2,9 +2,9 @@
 #include<math.h>
 int main()
 {
-    double x=5.556;
-    double result=trunc(x); //round, trunc, ceil, floor function
-    printf("trunc(%lf)=%lf",x,result);
+    double x=-5.556;
+    double result=floor(x); //round, trunc, ceil, floor function
+    printf("floor(%lf)=%lf",x,result);
     return 0;
 }
 
