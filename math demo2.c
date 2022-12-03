@@ -3,8 +3,8 @@
 int main()
 {
     double x=5.556;
-    double result=round(x);
-    printf("round(%lf)=%lf",x,result);
+    double result=trunc(x); //round, trunc, ceil, floor function
+    printf("trunc(%lf)=%lf",x,result);
     return 0;
 }
 
