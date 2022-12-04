@@ -6,5 +6,6 @@ int main()
     int y = ++x;//y=11
     printf("%d\n",x);
     printf("%d\n",y);
+
     return 0;
 }
